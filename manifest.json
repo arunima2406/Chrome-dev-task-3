@@ -1,0 +1,25 @@
+{
+    "name": "LinkedIn count popup",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon" : "popup.png"
+    },
+    "background": {
+        "service_worker" : "backend.js"
+      },
+     "host_permissions":[
+        "<all_urls>"
+    ]
+}
+
+
+
+
+
+
